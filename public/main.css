@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/coolbackgrounds-fractalize-clear_lagoon.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 500px;
+    width: 90%;
+    margin: 5% auto 0 auto;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+
+
+.container a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+@media (min-width: 600px) {
+    .container {
+        padding: 50px 40px;
+        
+    }
+    .container h1 {
+        font-size: 2.0em;
+    }
+    .container p {
+        font-size: 1.2em;
+    }
+    .container button {
+        font-size: 1.2em;
+    }
+    footer {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        max-width: 600px;
+    }
+    .container h1 {
+        font-size: 2.5em;
+    }
+    .container p {
+        font-size: 1.3em;
+    }
+    .container button {
+        font-size: 1.2em;
+        max-width: 200px;
+    }
+    footer {
+        font-size: 1.2em;
+    }
+}
+
+
+
+

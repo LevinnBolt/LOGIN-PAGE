@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    background-color: #f0f0f0;
+
+    /*gradient background*/
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.login-container {
+    text-align: center;
+    color: #333;
+    padding: 40px 60px;
+    width: 20%;
+    margin-left: 35.5%;
+    margin-right: 25%;
+    margin-top: 12%;
+    border-radius: 10px;
+
+    /*glass background effect*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: bisque;
+    
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    
+}
+
+.login-container input{
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    margin-top: 6px;
+    font-size: 1em;
+    background-color:#f0f0f0;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+.login-container input:focus {
+    background-color: aqua;
+    outline: none;
+}
+
+.login-container button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    width: 60%;
+    margin-left: 50px;
+}
+
+.login-container button:hover {
+    background-color: #004d40;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Responsive Media Queries */
+
+/* Tablets and below */
+@media (max-width: 1024px) {
+    .login-container {
+        width: 50%;
+        margin-left: 18%;
+        margin-top: 25%;
+        
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .login-container {
+        width: 80%;
+        padding: 30px 10px;
+        margin-left:35px;
+        margin-top: 55%;
+    }
+
+    .login-container h1 {
+        font-size: 2em;
+    }
+
+    .login-container input {
+        font-size: 1em;
+    }
+
+    .login-container button {
+        font-size: 1.1em;
+    }
+    
+}
